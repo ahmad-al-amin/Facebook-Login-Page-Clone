@@ -1,0 +1,153 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+a 
+{
+	text-decoration: none;
+	color: black;
+}
+button
+{
+	cursor: pointer;
+}
+
+body
+{
+	background: #f0f2f5;
+}
+
+section
+{
+	width: 980px;
+	height: 535px;
+	padding: 70px 0 120px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.left
+{
+	width: 580px;
+	height: 266px;
+}
+
+.left img
+{
+	width: 300px;
+	height: 106px;
+}
+.left h2
+{
+	width: 500px;
+	height: 284px;
+	margin-left: 30px;
+	font-weight: lighter;
+}
+
+.right 
+{
+	height: 456px;
+	width: 396px;
+	padding: 70px 0 120px 0;
+}
+
+.right form
+{
+	border-radius: 8px;
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+	align-items: center;
+	width: 380px;
+	height: 330px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.right form input, button
+{
+	font-size: 17px;
+	padding: 14px 16px;
+	width: 350px;
+	margin: 5px;
+	background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+	border: 1px solid #dddfe2;
+	color: #1d2129;
+	line-height: 16px;
+	vertical-align: middle;
+	border-radius: 6px;
+}
+
+.right form button
+{
+	font-size: 18px;
+	font-weight: bold;
+	background: #1877f2;
+	color: white;
+	margin-bottom: 10px;
+}
+.right form input,button:
+{
+	border: 1px solid #1877f2;
+	box-shadow: 0 0 0 2px #e7f3ff;
+	caret-color: #1877f2;
+}
+.right form input:hover
+{
+
+}
+
+.right form a
+{
+	font-size: 13px;
+	color: #1877f2;
+	padding-bottom: 15px;
+	padding-top: 7px;
+}
+.right form a:hover
+{
+	text-decoration: underline;
+}
+
+.right form div
+{
+	display: block;
+	background: #dadde1;
+	width: 100%;
+	border-bottom: 0.1px solid #dadde1;
+	margin-bottom: 20px;
+}
+.right form .last
+{
+	background: #42b72a;
+	width: 200px;
+	transition: background 150ms ease-in;
+}
+.right form .last:hover
+{
+	background: #36a420;
+}
+
+p
+{
+	color: #1c1e21;
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 20px;
+	text-align: center;
+}
+
+p a
+{
+	font-weight: bold;
+}
+p a:hover
+{
+	text-decoration: underline;
+}
