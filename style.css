@@ -1,3 +1,4 @@
+/* GLOBAL STYLE */
 *
 {
 	margin: 0;
@@ -5,11 +6,13 @@
 	box-sizing: border-box;
 	font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
 }
+
 a 
 {
 	text-decoration: none;
 	color: black;
 }
+
 button
 {
 	cursor: pointer;
